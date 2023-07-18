@@ -5,12 +5,14 @@
 .idea
 **/node_modules/*
 **/.firebaserc
+**/.eslintrc.js
 
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
 
 firebase.json
+ui-debug.log
 
 
 # End of https://www.toptal.com/developers/gitignore/api/firebase
