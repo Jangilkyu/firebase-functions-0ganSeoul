@@ -6,6 +6,7 @@
 **/node_modules/*
 **/.firebaserc
 **/.eslintrc.js
+**/firebase-debug.log
 
 ### Firebase Patch ###
 .runtimeconfig.json
