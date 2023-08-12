@@ -11,6 +11,12 @@ const connectDB = require("./db/connect");
 // PATH
 const {mongoURI} = require("./utils/appHelpers");
 
+// Router
+const citiesRouter = require("./routes/cities");
+
+app.use("/api/v1/citiesRouter", citiesRouter);
+
+
 const start = async () => {
   await connectDB(mongoURI());
   return app;
