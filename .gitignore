@@ -8,6 +8,9 @@
 **/.eslintrc.js
 **/firebase-debug.log
 
+### Lint ###
+functions/.eslintrc.json
+
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
