@@ -156,10 +156,7 @@ const CitySchema = new mongoose.Schema({
 
 const CitiesSchema = new mongoose.Schema({
   cities: [CitySchema],
-//   nowDate: {
-//     type: Date,
-//     default: getNowInSeoul(),
-//   },
+
 });
 
 module.exports = mongoose.model("City", CitiesSchema);

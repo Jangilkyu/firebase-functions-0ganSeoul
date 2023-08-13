@@ -17,7 +17,7 @@ const createCitiesData = async (city, cityArr) => {
   const sBikeSpotNames = sBikeStats;
   const latitude = city[1];
   const longitude = city[2];
-  const category = city[3];
+  const Category = city[3];
 
   const {
     LIVE_PPLTN_STTS: {
@@ -71,11 +71,11 @@ const createCitiesData = async (city, cityArr) => {
       ROAD_TRAFFIC_SPD,
     },
     SBIKE_STTS: sBikeSpotNames,
-    Coordinator: {
+    Coordinate: {
       latitude,
       longitude,
     },
-    category,
+    Category,
   };
 
   cityArr.push(cityObj);
